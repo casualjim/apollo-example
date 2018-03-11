@@ -78,6 +78,7 @@ const resolvers = {
     images: async ({ breed }: { breed: string }) => {
       const results = await fetch(`${API}/breed/${breed}/images`);
       const { message: images }: { message: string[]} = await results.json();
+
       return images.map(image => ({ url: image, id: unique(image) }));
     }
   }
