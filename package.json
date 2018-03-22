@@ -20,7 +20,10 @@
     "graphql-tools": "^2.21.0",
     "lodash": "^4.17.5",
     "node-fetch": "^2.1.1",
-    "shorthash": "^0.0.2"
+    "pg": "^7.4.1",
+    "reflect-metadata": "^0.1.12",
+    "shorthash": "^0.0.2",
+    "typeorm": "^0.1.16"
   },
   "devDependencies": {
     "@types/body-parser": "^1.16.8",
